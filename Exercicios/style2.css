@@ -1,0 +1,128 @@
+* {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.site {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    padding: auto;
+    background-color:#e8cefa;
+}
+.container-t {
+   flex:1;
+   background: #5a189a;
+   align-items: left;
+   max-width: 450px;
+   margin-left: 200px;
+   margin-right: 0px;
+   float: left;
+   border-top-left-radius: 20px;
+     height: 500px;
+     border-bottom-left-radius: 20px;
+    
+}
+.php{
+    flex:1;
+    background-color:#5a189a;
+    align-items: left;
+    max-width: 450px;
+    height: 500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: right;
+    margin-right: 200px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #4169E1;
+}
+.h1 {
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: #4169E1;
+    margin-top: 40px;
+}
+.form-group {
+    margin-bottom: 15px;
+    
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #000000;
+}
+.form-group input {
+    width:  300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #e8cefa;
+    color: grey
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #9d4edd;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #d083fd;
+}
+
+
+.metade {
+    flex:1;
+    text-align: center;
+    
+}
+label{
+    color: white;
+}
+
+.idade{
+    width: 100%;
+    max-width: 200px;
+    object-fit: fill;
+}
+.triangulo{
+    width: 100%;
+    max-width: 300px;
+    object-fit: fill;
+    
+}
+.imc{
+    width: 100%;
+    max-width: 200px;
+    object-fit: fill;
+   margin-top: 50px;
+   align-items: center;
+}
+.grau{
+    width: 100%;
+    max-width: 200px;
+    object-fit: fill;
+    
+}

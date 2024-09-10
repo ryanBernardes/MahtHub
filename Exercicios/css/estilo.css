@@ -1,0 +1,26 @@
+* {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#f4f4f4;
+}
+.container {
+    padding: 50px;
+    border-radius: 10px;
+   
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}

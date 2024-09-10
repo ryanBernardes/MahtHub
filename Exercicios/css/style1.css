@@ -1,0 +1,99 @@
+* {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    padding: auto;
+    background-color:#f4f4f4;
+}
+.container-t {
+   flex:1;
+   background: #B0C4DE;
+   align-items: left;
+   max-width: 450px;
+   margin-left: 200px;
+   margin-right: 0px;
+   float: left;
+   border-top-left-radius: 20px;
+     height: 500px;
+     border-bottom-left-radius: 20px;
+    
+}
+.php{
+    flex:1;
+    background-color:#B0C4DE;
+    align-items: left;
+    max-width: 450px;
+    height: 500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: right;
+    margin-right: 200px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #4169E1;
+}
+.h1 {
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: #4169E1;
+    margin-top: 40px;
+}
+.form-group {
+    margin-bottom: 15px;
+    
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #000000;
+}
+.form-group input {
+    width:  200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #4169E1;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #004494;
+}
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;
+}
+.metade {
+    flex:1;
+    text-align: center;
+    
+}
